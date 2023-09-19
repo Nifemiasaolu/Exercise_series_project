@@ -16,4 +16,4 @@ export function FaqSection({ title, num, curOpen, onOpen, children }) {
   );
 }
 
-// ///
+// /
