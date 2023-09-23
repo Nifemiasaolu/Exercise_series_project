@@ -5,7 +5,7 @@ export default function useGeolocation() {
   const [position, setPosition] = useState({});
   const [error, setError] = useState(null);
 
-  function geoEffect () {
+  function geoEffect() {
     if (!navigator.geolocation)
       return setError("Your browser does not support geolocation");
 
@@ -20,11 +20,10 @@ export default function useGeolocation() {
         setError(error.message);
         setIsLoading(false);
       }
-      
     );
   }
 
-  return{isLoading, position, error, geoEffect}
+  return { isLoading, position, error, geoEffect };
 }
 
 ////
