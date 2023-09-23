@@ -5,7 +5,8 @@ import ReactDOM from 'react-dom/client';
 // import App from "./Challenge/TipCalculator/App";
 // import App from "./Challenge/TextExpander/App";
 // import App from './Exercise/Currency Converter/App';
-import App from './Challenge/useGeolocation/App';
+// import App from './Challenge/useGeolocation/App';
+import App from './Exercise/Bank Account (useReducer)/App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
