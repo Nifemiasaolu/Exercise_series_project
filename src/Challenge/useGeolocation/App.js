@@ -4,9 +4,9 @@ import useGeolocation from "./useGeolocation";
 export default function App() {
   const [countClicks, setCountClicks] = useState(0);
 
-  const { isLoading, position:{lat, lng}, error, geoEffect } = useGeolocation();
+  const { isLoading, position, error, geoEffect } = useGeolocation();
 
-  // const { lat, lng } = position;
+  const { lat, lng } = position;
 
   function getPosition() {
     setCountClicks((count) => count + 1);
